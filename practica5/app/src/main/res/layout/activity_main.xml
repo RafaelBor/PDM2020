@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.xtx.practica05.MainActivity">
+        <ListView
+            android:id="@+id/listView"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            />
+    </android.support.constraint.ConstraintLayout>
+
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+    android:text="Medium Text"
+    android:textStyle="bold"
+    android:textAppearance="?android:attr/textAppearanceMedium"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="5dp"
+    android:padding="2dp"
+    android:textColor="#4d4d4d"
+    />
+    String.xml
+    <resources>
+        <string name="app_name">practica05</string>
+        <string name="title_activity_main">MainActivity</string>
+        <string-array name="array_technology">
+            <item>Android</item>
+            <item>Java</item>
+            <item>Php</item>
+            <item>Hadoop</item>
+            <item>Sap</item>
+            <item>Python</item>
+            <item>Ajax</item>
+            <item>C++</item>
+            <item>Ruby</item>
+            <item>Rails</item>
+            <item>.Net</item>
+            <item>Perl</item>
+        </string-array>
+    </resources>
+</androidx.constraintlayout.widget.ConstraintLayout>
